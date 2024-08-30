@@ -1,4 +1,4 @@
-import type { Dispatcher } from "undici";
+import type { BodyInit, Dispatcher } from "undici";
 import { RequestError, StytchError, StytchErrorJSON } from "./errors";
 
 export interface fetchConfig {
